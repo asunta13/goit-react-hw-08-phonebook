@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 
@@ -10,4 +11,8 @@ export const AuthLayout = ({ children }) => {
   }, [dispatch]);
 
   return <>{children}</>;
+};
+
+AuthLayout.propTypes = {
+  children: PropTypes.any,
 };

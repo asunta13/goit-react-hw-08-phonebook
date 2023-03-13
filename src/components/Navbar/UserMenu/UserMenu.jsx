@@ -15,10 +15,7 @@ export const UserMenu = () => {
 
   return (
     <UserDiv>
-      <span>{email}</span>{' '}
-      <Button type="submit" onClick={onLogout}>
-        Logout
-      </Button>
+      <span>{email}</span> <Button onClick={onLogout}>Logout</Button>
     </UserDiv>
   );
 };
