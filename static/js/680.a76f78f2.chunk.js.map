@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/680.a76f78f2.chunk.js","mappings":"0JASA,UATiB,WACf,OACE,iCACE,uCACA,uEAGL,C","sources":["pages/HomePage/HomePage.jsx"],"sourcesContent":["const HomePage = () => {\n  return (\n    <>\n      <h1>Phonebook</h1>\n      <p>Create your personalized contacts here...</p>\n    </>\n  );\n};\n\nexport default HomePage;\n"],"names":[],"sourceRoot":""}
